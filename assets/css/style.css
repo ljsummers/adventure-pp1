@@ -1,37 +1,112 @@
-:root {
-  background-color: #0A1828;
-}
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
 
-@media screen {
-  max-width: 768px;
-}
-
-
-@media screen {
-  min-width: 768px;
-  max-width: 1024px;
-
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
+  font-weight: 400;
 }
 
+:root {
+  background-color: #c4e5fb;
+}
+
+/* Media query for devices with a maximum width of 768 pixels */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Media query for devices with a minimum width of 768 pixels */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Media query for devices with a minimum width of 1024p pixels */
+@media only screen and (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Media query for devices with a maximum width of 1280 pixels */
+@media only screen and (max-width: 1280px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+/* headings */
+
+/* CSS rules for elements on the index.html page */
+
 header {
-  background-color: #0A1828;
-  color: #BFA181;
+  color: #0A1828;
   text-align: center;
-  border: 4px solid #BFA181;
+  border: 6px solid #0A1828;
+  letter-spacing: 4px;
   padding: 20px;
+  font-size: 30px;
+}
+
+/* navigation links */
+
+#menu {
+  text-align: center;
 }
 
 .menu-item {
   display: inline-block;
-  color: #BFA181;
-  padding: 14px;
+  margin: 0 10px;
+}
+
+.menu-item a {
+  display: block;
   text-decoration: none;
+  color: #0A1828;
+  padding: 5px;
+  letter-spacing: 2px;
+  font-size: 17px;
+  border-bottom: 2px solid #0A1828;
+}
+
+
+/*.div {
+  text-align: center;
+  display: block;
+  color: #c38543;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-weight: 400;
   font-size: 17px;
 }
+
+
+  .menu-item {
+    font-size: 110%;
+    letter-spacing: 4px;
+    float: left;
+    text-decoration: none;
+    margin-top: 40px;
+
+    li {
+      display: inline;
+    }
+
+    a {
+      display: block;
+      padding: 8px;
+      background-color: #dddddd;
+    }
+  }
+*/
 
 h1 {
   color: #178582;
@@ -60,10 +135,15 @@ body p {
   color: white;
 }
 
+/* contact pages */
+
+contact {}
+
+/* footer */
+
 footer {
-  background-color: #BFA181;
   padding: 20px;
-  border: 10px solid #0A1828;
+  border: 6px solid #0A1828;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +151,8 @@ footer {
   margin-bottom: -10px;
   height: 50px;
 }
+
+/* special links */
 
 .social-media {
   text-align: center;
@@ -82,7 +164,119 @@ footer {
   width: 30px;
   height: 30px;
   background-color: #178582;
-  color: #BFA181;
+  color: #ffffff;
   text-align: center;
   line-height: 30px;
+}
+
+/* CSS rules for elements on the about.html page */
+
+#about-page h1 {
+  color: #178582;
+}
+
+#about-page {
+  font-size: 16px;
+  color: #0A1828;
+  text-align: center;
+  border: 6px solid #0A1828;
+  letter-spacing: 4px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+/* CSS rules for elements on the menu.html page */
+
+#my-div {
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-top: 99%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 #a3b9e34a;
+  margin-top: auto;
+  margin-bottom: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  will-change: transform;
+}
+
+#my-div iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* CSS rules for elements on the contact.html page */
+
+#contact-page body {
+  font-family: Arial, sans-serif;
+  background-color: #c4e5fb;
+  color: #0A1828;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.header {
+  background-color: #c4e5fb;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 8px solid #0A1828;
+}
+
+.opening-hours {
+  margin-bottom: 20px;
+}
+
+.opening-hours p {
+  margin: 5px 0;
+}
+
+.address {
+  margin-bottom: 20px;
+}
+
+.address p {
+  margin: 5px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #0A1828;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  align-self: flex-end;
 }
