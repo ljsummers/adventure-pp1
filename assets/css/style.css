@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-  background-color: #c4e5fb;
+  background-color: #fdfdfd;
 }
 
 /* Media query for devices with a maximum width of 768 pixels */
@@ -45,12 +45,11 @@ body {
 
 /* headings */
 
-/* CSS rules for elements on the index.html page */
+/* CSS rules for elements on the home.html page */
 
 header {
   color: #0A1828;
   text-align: center;
-  border: 6px solid #0A1828;
   letter-spacing: 4px;
   padding: 20px;
   font-size: 30px;
@@ -60,6 +59,7 @@ header {
 
 #menu {
   text-align: center;
+  padding: 20px;
 }
 
 .menu-item {
@@ -74,7 +74,36 @@ header {
   padding: 5px;
   letter-spacing: 2px;
   font-size: 17px;
-  border-bottom: 2px solid #0A1828;
+  border-bottom: 2px solid #BFA181;
+}
+
+.hero-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* hero image */
+
+.hero-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
 
 
@@ -109,7 +138,7 @@ header {
 */
 
 h1 {
-  color: #178582;
+  color: #000404;
   text-align: center;
 }
 
@@ -139,7 +168,7 @@ body p {
 
 footer {
   padding: 20px;
-  border: 6px solid #0A1828;
+  border: 6px solid #BFA181;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,7 +204,7 @@ footer {
   font-size: 16px;
   color: #0A1828;
   text-align: center;
-  border: 6px solid #0A1828;
+  border: 6px solid #BFA181;
   letter-spacing: 4px;
   padding: 20px;
   font-size: 30px;
@@ -215,17 +244,16 @@ footer {
 /* CSS rules for elements on the contact.html page */
 
 #contact-page body {
-  font-family: Arial, sans-serif;
   background-color: #c4e5fb;
   color: #0A1828;
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .header {
   background-color: #c4e5fb;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -233,11 +261,12 @@ footer {
   margin: 0 auto;
   margin-top: 20px;
   padding: 20px;
-  border: 8px solid #0A1828;
+  border: 8px solid #BFA181;
 }
 
 .opening-hours {
   margin-bottom: 20px;
+  margin-left: 80px;
 }
 
 .opening-hours p {
@@ -264,8 +293,8 @@ footer {
 
 .contact-form input,
 .contact-form textarea {
-  padding: 15px;
-  margin-bottom: 25px;
+  padding: 5px;
+  margin-bottom: 15px;
 }
 
 .contact-form input[type="submit"] {
@@ -277,9 +306,56 @@ footer {
   align-self: flex-end;
 }
 
-.image-1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+/* CSS rules for elements on the booking.html page */
+
+#booking-form body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #0A1828;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #BFA181;
 }
