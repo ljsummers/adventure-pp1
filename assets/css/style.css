@@ -48,7 +48,7 @@ body {
 /* CSS rules for elements on the home.html page */
 
 header {
-  color: #0A1828;
+  color: #c34206;
   text-align: center;
   letter-spacing: 4px;
   padding: 20px;
@@ -70,7 +70,7 @@ header {
 .menu-item a {
   display: block;
   text-decoration: none;
-  color: #0A1828;
+  color: #c34206;
   padding: 5px;
   letter-spacing: 2px;
   font-size: 17px;
@@ -79,7 +79,7 @@ header {
 
 .hero-container {
   position: relative;
-  height: 100vh;
+  height: 1000px;
   overflow: hidden;
 }
 
@@ -87,7 +87,7 @@ header {
 
 .hero-container {
   position: relative;
-  height: 100vh;
+  height: 900;
   overflow: hidden;
 }
 
@@ -95,6 +95,7 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1.1);
 }
 
 .hero-content {
@@ -106,39 +107,8 @@ header {
   color: #fff;
 }
 
-
-/*.div {
-  text-align: center;
-  display: block;
-  color: #c38543;
-  padding: 10px;
-  letter-spacing: 2px;
-  font-weight: 400;
-  font-size: 17px;
-}
-
-
-  .menu-item {
-    font-size: 110%;
-    letter-spacing: 4px;
-    float: left;
-    text-decoration: none;
-    margin-top: 40px;
-
-    li {
-      display: inline;
-    }
-
-    a {
-      display: block;
-      padding: 8px;
-      background-color: #dddddd;
-    }
-  }
-*/
-
 h1 {
-  color: #000404;
+  color: #c34206;
   text-align: center;
 }
 
@@ -168,7 +138,7 @@ body p {
 
 footer {
   padding: 20px;
-  border: 6px solid #BFA181;
+  border: 6px solid #c34206;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,24 +214,35 @@ footer {
 /* CSS rules for elements on the contact.html page */
 
 #contact-page body {
-  background-color: #c4e5fb;
   color: #0A1828;
   text-align: center;
   letter-spacing: 2px;
+  padding: 10px;
 }
 
 .header {
-  background-color: #c4e5fb;
   padding: 5px;
   margin-bottom: 10px;
 }
 
 .container {
-  max-width: 600px;
-  margin: 0 auto;
-  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 20px;
-  border: 8px solid #BFA181;
+  margin-bottom: 50px;
+}
+
+.container h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.container p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: right;
 }
 
 .opening-hours {
@@ -274,6 +255,7 @@ footer {
 }
 
 .address {
+  text-align: right;
   margin-bottom: 20px;
 }
 
@@ -282,8 +264,8 @@ footer {
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  flex-direction: right;
 }
 
 .contact-form label {
@@ -293,17 +275,34 @@ footer {
 
 .contact-form input,
 .contact-form textarea {
-  padding: 5px;
-  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 .contact-form input[type="submit"] {
   background-color: #0A1828;
-  color: white;
+  color: #FFFFFF;
   border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
-  width: 100px;
-  align-self: flex-end;
+}
+
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 78.25%;
+  /* 16:9 aspect ratio */
+  height: 0;
+}
+
+.map-container iframe {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
 }
 
 /* CSS rules for elements on the booking.html page */
