@@ -1,14 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap');
-
-* {
+/* {
   margin: 0;
   border: 0;
   padding: 0;
+}*/
+
+header {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+head {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
 }
 
 body {
   font-family: 'Ysabeau SC', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 :root {
@@ -57,6 +65,11 @@ header {
 
 /* navigation links */
 
+h1 {
+  color: #c34206;
+  text-align: center;
+}
+
 #menu {
   text-align: center;
   padding: 20px;
@@ -68,56 +81,51 @@ header {
 }
 
 .menu-item a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
-  color: #c34206;
+  color: #d04707;
   padding: 5px;
   letter-spacing: 2px;
   font-size: 17px;
   border-bottom: 2px solid #BFA181;
 }
 
-.hero-container {
-  position: relative;
-  height: 1000px;
-  overflow: hidden;
-}
-
 /* hero image */
 
-.hero-container {
-  position: relative;
-  height: 900;
-  overflow: hidden;
-}
-
 .hero-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(1.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.hero-content {
+/*.hero-container-centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  
+  object-fit: scale-down;
+  transform: scale(.6);
+}*/
+
+/*.hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   color: #fff;
-}
+}*/
 
-h1 {
-  color: #c34206;
-  text-align: center;
-}
-
-body p {
-  color: #BFA181;
+#short-intro {
+  color: #068D9D;
   margin: auto;
   width: 640px;
   padding: 10px;
 }
+
 
 .container {
   height: 100%;
@@ -136,32 +144,40 @@ body p {
 
 /* footer */
 
-footer {
-  padding: 20px;
-  border: 6px solid #c34206;
+.footer-info {
+  display: block;
+  align-items: flex-end;
+  margin: 0;
+  position: absolute;
+  bottom: 50;
+  left: 0;
+  width: 40%;
+  color: #068D9D;
+}
+
+.social {
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: -10px;
+  margin: 0 0 0;
   height: 50px;
 }
 
-/* special links */
 
-.social-media {
+.social a {
   text-align: center;
-}
-
-.social-media a {
   display: inline-block;
   margin-right: 10px;
   width: 30px;
   height: 30px;
-  background-color: #178582;
+  background-color: #0A1828;
   color: #ffffff;
-  text-align: center;
   line-height: 30px;
+}
+
+.social a:hover {
+  color: #068D9D;
 }
 
 /* CSS rules for elements on the about.html page */
@@ -172,7 +188,7 @@ footer {
 
 #about-page {
   font-size: 16px;
-  color: #0A1828;
+  color: #068D9D;
   text-align: center;
   border: 6px solid #BFA181;
   letter-spacing: 4px;
@@ -226,23 +242,22 @@ footer {
 }
 
 .container {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .container h3 {
   font-size: 18px;
   margin-bottom: 10px;
-  text-align: right;
 }
 
 .container p {
   font-size: 16px;
   margin-bottom: 5px;
-  text-align: right;
 }
 
 .opening-hours {
@@ -255,7 +270,7 @@ footer {
 }
 
 .address {
-  text-align: right;
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -291,11 +306,11 @@ footer {
   cursor: pointer;
 }
 
-.map-container {
+/*.map-container {
   position: relative;
   overflow: hidden;
   padding-bottom: 78.25%;
-  /* 16:9 aspect ratio */
+
   height: 0;
 }
 
@@ -303,6 +318,20 @@ footer {
   margin-top: 20px;
   height: 300px;
   width: 100%;
+}*/
+
+.map-container {
+  width: 300px;
+  height: 250px;
+  border: 3px solid #ccc;
+  background: #eee;
+  margin: auto;
+  padding: 15px 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 /* CSS rules for elements on the booking.html page */
@@ -310,6 +339,7 @@ footer {
 #booking-form body {
   margin: 0;
   padding: 0;
+  color: #068D9D;
 }
 
 .container {
@@ -319,6 +349,7 @@ footer {
 
 h1 {
   text-align: center;
+  color: #068d9d;
 }
 
 .booking-form {
@@ -327,6 +358,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #068D9D;
 }
 
 .form-field {
@@ -358,3 +390,19 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #BFA181;
 }
+
+/* CSS rules for elements on the thankyou.html page */
+
+#thankyou {
+  background-color: #f9f9f9;
+  color: #6c0303;
+}
+ 
+
+#thankyou {
+  padding: 20px;
+  text-align: center;
+  color: #007bff;
+  text-decoration: none;
+}
+
