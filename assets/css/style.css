@@ -189,9 +189,10 @@ h1 {
 }
 
 .cocktails-about-us {
-  background-position: bottom left;
-background-repeat: no-repeat;
-background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* CSS rules for elements on the menu.html page */
@@ -231,7 +232,6 @@ background-size: cover;
   text-align: center;
   letter-spacing: 2px;
   padding: 10px;
-  display: flex;
 }
 
 .header {
@@ -251,7 +251,6 @@ background-size: cover;
   margin-bottom: 20px;
   padding-right: 40px;
   text-align: right;
-  display: block;
 }
 
 .opening-hours p {
@@ -264,7 +263,6 @@ background-size: cover;
   text-align: left;
   padding-left: 40px;
   margin-bottom: 20px;
-  display: block
 }
 
 .address p {
