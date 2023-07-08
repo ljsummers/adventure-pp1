@@ -4,6 +4,10 @@
   padding: 0;
 }*/
 
+* {
+  box-sizing: border-box;
+}
+
 header {
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
@@ -23,33 +27,24 @@ body {
   background-color: #fdfdfd;
 }
 
-/* Media query for devices with a maximum width of 768 pixels */
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  max-width: 20px;
 }
 
-/* Media query for devices with a minimum width of 768 pixels */
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-}
 
-/* Media query for devices with a minimum width of 1024p pixels */
-@media only screen and (min-width: 1024px) {
-  body {
-    font-size: 18px;
-  }
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+  
 
-/* Media query for devices with a maximum width of 1280 pixels */
-@media only screen and (max-width: 1280px) {
-  body {
-    font-size: 20px;
-  }
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px)
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px)
 
 /* headings */
 
@@ -134,14 +129,6 @@ h1 {
   align-items: center;
   width: max-content;
 }
-
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #0A1828;
-  color: white;
-}
-
 /* footer */
 
 .footer-info {
@@ -186,18 +173,26 @@ h1 {
 }
 
 .about-section h2 {
-  color: #007bff;
-  background-color: white;
+  color: #c34206;
+  display: flex;
+  justify-content: center;
 }
 
 .about-section {
   font-size: 18px;
-  color: #0A1828;
+  display: grid;
+  color: #068D9D;
   text-align: center;
-  padding: 0;
-  margin: 0;
+  align-items: center;
+  display: inline-block;
+  vertical-align: middle;
 }
 
+.cocktails-about-us {
+  background-position: bottom left;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 /* CSS rules for elements on the menu.html page */
 
