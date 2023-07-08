@@ -177,14 +177,15 @@ h1 {
   color: #c34206;
   display: flex;
   justify-content: center;
+  
 }
 
 .about-section {
   color: #068D9D;
   text-align: center;
   align-items: center;
-  display: inline-block;
   vertical-align: middle;
+  font-size: 20px;
 }
 
 .cocktails-about-us {
@@ -256,6 +257,7 @@ background-size: cover;
 .opening-hours p {
   text-align: center;
   padding-right: 20px;
+  font-size: 18px;
 }
 
 .address {
@@ -268,6 +270,7 @@ background-size: cover;
 .address p {
   text-align: center;
   padding-left: 20px;
+  font-size: 18px;
 }
 
 body h3 {
