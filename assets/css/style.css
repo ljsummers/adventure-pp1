@@ -50,8 +50,8 @@ body {
 
 /* CSS rules for elements on the home.html page */
 
-header {
-  color: #c34206;
+#header {
+  color: #c34206
   text-align: center;
   letter-spacing: 4px;
   padding: 20px;
@@ -119,6 +119,7 @@ h1 {
   margin: auto;
   width: auto;
   padding: 10px;
+
 }
 
 
@@ -179,8 +180,6 @@ h1 {
 }
 
 .about-section {
-  font-size: 18px;
-  display: grid;
   color: #068D9D;
   text-align: center;
   align-items: center;
@@ -241,7 +240,6 @@ background-size: cover;
 
 .contact-us-container {
   padding: 10px;
-  font-size: 16px;
   margin-bottom: 5px;
   display: flex;
   align-items: center;
