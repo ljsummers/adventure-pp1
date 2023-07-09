@@ -125,8 +125,15 @@ flex-direction: column;
 margin: 30px;
 text-align: center;
 font-size: 18px;
-color: #068D9D;
+color: #d04707;;
+}
 
+#opening-night {
+ list-style-position: inside;
+  text-align: center;
+  align-items: center;
+  word-wrap: break-word;
+  color: #d04707;
 }
 /* footer */
 
