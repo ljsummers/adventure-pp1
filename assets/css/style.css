@@ -116,16 +116,13 @@ h1 {
 
 h2 {
   text-align: center;
-  text-transform: ;
   color: #068D9D;
 }
 
 #flex-container-short-intro {
 display: flex;
 flex-direction: column;
-margin: auto;
-padding-left: 160px;
-padding-right: 160px;
+margin: 30px;
 text-align: center;
 font-size: 18px;
 color: #068D9D;
