@@ -204,7 +204,7 @@ color: #d04707;;
 
 /* CSS rules for elements on the menu.html page */
 
-#frame-div {
+/*#menus {
   position: relative;
   width: 80%;
   height: 0;
@@ -220,7 +220,7 @@ color: #d04707;;
   will-change: transform;
 }
 
-#frame-div iframe {
+#menus iframe {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -229,6 +229,12 @@ color: #d04707;;
   border: none;
   padding: 0;
   margin: 0;
+}*/
+
+.menus {
+   display: block;
+ margin: 30px;
+  width: 70%;
 }
 
 
@@ -405,13 +411,4 @@ input[type="submit"]:hover {
 
 /* CSS rules for elements on the thankyou.html page */
 
-#thankyou {
-  padding: 20px;
-  text-align: center;
-  align-items: center;
-  color: #007bff;
-}
 
-#thankyou h2 {
-  text-decoration: none;
-}
