@@ -8,14 +8,17 @@
   box-sizing: border-box;
 }
 
-header {
+head {
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
 }
 
-head {
+header {
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
+  font-size: 40px;
+  border: 10px #c34206;
+  border-style: double;
 }
 
 body {
@@ -91,7 +94,7 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 70%;
 }
 
 /*.hero-container-centre {
@@ -116,6 +119,7 @@ h1 {
 
 h2 {
   text-align: center;
+  text-transform: ;
   color: #068D9D;
 }
 
