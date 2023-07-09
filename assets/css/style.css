@@ -114,32 +114,26 @@ h1 {
   color: #fff;
 }*/
 
-#short-intro {
-  color: #068D9D;
-  margin: auto;
-  width: auto;
-  padding: 10px;
-
-}
-
-
-.container {
-  height: 100%;
+.flex-container-short-intro {
   display: flex;
   justify-content: center;
   align-items: center;
   width: max-content;
+  text-align: center;
+  color: #068D9D;
 }
 /* footer */
+
+.flex-container-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
 
 .footer-info {
   display: block;
   align-items: flex-end;
   margin: 0;
- float: left;
-  left: 0;
-  padding-left: 20px;
-  color: #068D9D;
 }
 
 .social {
@@ -180,12 +174,13 @@ h1 {
   
 }
 
-.about-section {
+.flex-container-about {
   color: #068D9D;
+  display: flexbox;
   text-align: center;
-  align-items: center;
-  vertical-align: middle;
   font-size: 20px;
+  max-width: 1000px;
+ padding-left: 400px;
 }
 
 .cocktails-about-us {
