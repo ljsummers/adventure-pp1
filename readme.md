@@ -38,32 +38,48 @@ The website uses a palette of [summery/bright/fun colours](https://coolors.co/06
 
 Google Fonts was used for the following fonts:
 
-Ysabeau SC is used for body on the site. It is a Garamond font.
+*Ysabeau SC is used for body on the site. It is a Garamond font.*
 
-Dancing Script is used for the title/header text on the site. It is a cursive font.
+*Dancing Script is used for the title/header text on the site. It is a cursive font.*
 
 
 **Imagery**
 
 All imagery was used from [Pexels](https://www.pexels.com/search/drinks/). I have credited these in the credits section.
 
-**Features**
+## Features
 
 The website is comprised of six pages, five of which are accessible from the navigation menu. 
 
 To ensure consistency and a user friendly system: 
 
-- All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. 
+- All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/menu_bar.png" alt="menu bar"> 
 - A [footer](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/footer.png) which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable.
 - The same color scheme is applied throughout the website to keep it on brand. 
 
 **Home Page**
+A quick description as to what the website is about with a hero image to instantly identify as to Drinks & Giggles is about. It also advertises the opening night event. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_index_page.png" alt="am i responsive index">
 
-A quick description as to what the website is about with a hero image to instantly identify as to Drinks & Giggles is about. 
+**About Page**
+A more comphregensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_about_page.png" alt="am i responsive about">
 
+**Menu Page**
+Carrying on the theme of vibrant colors, the menu offers what cocktails are available as well as brunch/dinner options so the public can peruse in advance of visiting the bar. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_menu_page.png" alt="am i responsive menu">
 
+**Booking Page**
+Users can book a reservation for up to 8 people using the booking page. Without using Javascript, the form leads to an error page upon clicking 'book now'. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_booking_page.png" alt="am i responsive booking">
 
-A message thanks the user for submitting the form and lets them know someone will be in touch soon.
+**Contact Page**
+The contact page provides opening times, the address as well as a general form for users to submit if they have any questions about the bar. There is also a map which gives a general direction to the bar's location. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_contact_page.png" alt="am i responsive contact>
+
+**Thank You Page**
+The page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/thankyou_page.png">
 
 
 **Future Implementations**
@@ -79,21 +95,20 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Using descriptive alt attributes on images on the site.
 - Ensuring that there is a sufficient colour contrast throughout the site.
 - Ensuring menus are accessible by marking the current page as current for screen readers.
+- Checking the accessibility score on Lighthouse and Wave. 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/wave_test.png" alt="score from WAVE">
 
 
 
 ## Technologies Used
 
-
-Languages Used: 
-
-HTML and CSS were used to create this website.
+Languages Used: HTML and CSS were used to create this website.
 
 **Libraries & Programs Used**
 
 Github - To save and store the files for the website.
 
-Visual Studio Code - The framework for the website. 
+Visual Studio Code - To build and create the framework for the website. 
 
 Google Fonts - To import the fonts used on the website.
 
@@ -101,9 +116,11 @@ Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-[Favicon.io](https://favicon.io/) To create favicon.
+[Favicon.io](https://favicon.io/) to create favicons.
 
-[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+[Am I Responsive?](https://ui.dev/amiresponsive) to show the website image on a range of devices.
+
+
 ## Deployment & Local Development
 
 **Deployment**
@@ -136,7 +153,7 @@ To clone the drinks-giggles repository:
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone into the terminal and then paste the link you copied in step 3. Press enter.
 
-## Testing
+## Testing & Bugs
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
@@ -146,10 +163,12 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 The following issues were raised during my mid project meeting with my mentor:
 
-- unable to link thankyou.html to the css style sheet without JS
-- bullet points on the index page looked out of place 
-- aboutus page needed to have margins added 
+- unable to link thankyou.html to the css style sheet without JS.
+- bullet points on the index page looked out of place. 
+- aboutus page needed to have margins added to make readability easier.
 
+
+**Code Validation** 
 
 [W3C Validator](https://validator.w3.org/)
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -160,10 +179,10 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 - [Index Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_index_page.png)
 - [Menu Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_menu_page.png)
 - [Thank You Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_thankyou_page.png)
-- [Style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fljsummers.github.io%2Fdrinks-giggles%2Findex.html&usermedium=all&vextwarning=&warning=2))
+- [Style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fljsummers.github.io%2Fdrinks-giggles%2Findex.html&usermedium=all&vextwarning=&warning=2)
 
 
-Solved Bugs
+**Solved Bugs**
 
 - overlapping of footer with bar address on index page on mobile devices
 
