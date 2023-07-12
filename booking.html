@@ -15,77 +15,75 @@
     <h1>Booking Page</h1>
   </header>
 
-<nav id="menu">
-  <div class="menu-item">
-    <a href="index.html">Home</a>
-  </div>
-  <div class="menu-item">
-    <a href="about.html">About Us</a>
-  </div>
-  <div class="menu-item">
-    <a href="menu.html">Menu</a>
-  </div>
-  <div class="menu-item">
-    <a href="booking.html">Book Now</a>
-  </div>
-  <div class="menu-item">
-    <a href="contact.html">Contact Us</a>
-  </div>
-</nav>
+  <div id="container">
+    <nav id="menu">
+      <div class="menu-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="menu-item">
+        <a href="about.html">About Us</a>
+      </div>
+      <div class="menu-item">
+        <a href="menu.html">Menu</a>
+      </div>
+      <div class="menu-item">
+        <a href="booking.html">Book Now</a>
+      </div>
+      <div class="menu-item">
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </nav>
 
-<main>
-  <div id="booking-form">
-    <form class="booking-form" action="thankyou.html" method="POST">
-      <div class="form-field">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+    <main>
+      <div id="booking-form">
+        <form class="booking-form" action="thankyou.html" method="POST">
+          <div class="form-field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email here" required>
+          </div>
+          <div class="form-field">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+          </div>
+          <div class="form-field">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+          </div>
+          <div class="form-field">
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <input type="submit" value="Book Now">
+          </div>
+        </form>
+
+        <div id="burger-image">
+          <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="burger, chips and sauce on a white plate">
+        </div>
       </div>
-      
-      <div class="form-field">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email here" required>
-      </div>
-      
-      <div class="form-field">
-        <label for="date">Date:</label>
-        <input type="date" id="date" name="date" required>
-      </div>
-      
-      <div class="form-field">
-        <label for="time">Time:</label>
-        <input type="time" id="time" name="time" required>
-      </div>
-      
-      <div class="form-field">
-        <label for="guests">Number of Guests:</label>
-        <select id="guests" name="guests">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-        </select>
-      </div>
-      <div class="form-field">
-        <input type="submit" value="Book Now" a href="thankyou.html">
-      </div>
-    </form>
-    
-    <div id="burger-image">
-      <img src="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-      alt="burger, chips and sauce on a white plate">
-    </div>
-  </main>
-  
+    </main>
+  </div>
+
   <footer>
     <div class="social">
       <a href="https://www.facebook.com" class="fa fa-facebook" title="Facebook"></a>
       <a href="https://www.instagram.com" class="fa fa-instagram" title="Instagram"></a>
       <a href="https://www.twitter.com" class="fa fa-twitter" title="Twitter"></a>
-  </div>
+    </div>
   </footer>
 
 </body>
