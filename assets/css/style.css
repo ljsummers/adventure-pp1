@@ -117,7 +117,7 @@ color: #d04707;;
 }
 
 #bullet-points {
-  list-style-position: inside;
+  list-style-type: none;
   color: #0A1828;
   text-align: center;
   align-items: center;
