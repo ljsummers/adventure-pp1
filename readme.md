@@ -100,7 +100,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 - Using descriptive alt attributes on images on the site.
 - Ensuring that there is a sufficient colour contrast throughout the site.
 - Ensuring menus are accessible by marking the current page as current for screen readers.
-- Checking the accessibility score on Lighthouse and Wave. 
+- Checking the accessibility score on Lighthouse ([mobile](https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/readme/lightspeed_mobile.png) and [desktop](https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/readme/lightspeed_desktop.png)) and Wave. 
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/wave_test.png" alt="score from WAVE">
 
 
