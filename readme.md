@@ -55,30 +55,32 @@ To ensure consistency and a user friendly system:
 
 - All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/menu_bar.png" alt="menu bar"> <br>
-- A [footer](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/footer.png) which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable.
+- A footerwhich contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable. <br>
+<img src="https://github.com/ljsummers/drinks-giggles/blob/1969c1cdd798530b70631d892c47afa5ba8451a7/assets/images/readme/footer.png"> <br>
 - The same color scheme is applied throughout the website to keep it on brand. 
 
-**Home Page**
+**Home Page** <br>
 A quick description as to what the website is about with a hero image to instantly identify as to Drinks & Giggles is about. It also advertises the opening night event. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_index_page.png" alt="am i responsive index">
 
-**About Page**
+**About Page** <br>
 A more comphregensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy.  <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_about_page.png" alt="am i responsive about">
 
-**Menu Page**
+**Menu Page** <br>
 Carrying on the theme of vibrant colors, the menu offers what cocktails are available as well as brunch/dinner options so the public can peruse in advance of visiting the bar. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_menu_page.png" alt="am i responsive menu">
 
-**Booking Page**
+**Booking Page** <br>
 Users can book a reservation for up to 8 people using the booking page. Without using Javascript, the form leads to an error page upon clicking 'book now'. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_booking_page.png" alt="am i responsive booking">
 
-**Contact Page**
+**Contact Page** <br>
 The contact page provides opening times, the address as well as a general form for users to submit if they have any questions about the bar. There is also a map which gives a general direction to the bar's location. <br>
-<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_contact_page.png" alt="am i responsive contact>
+<img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_contact_page.png" alt="am i responsive contact">
 
-**Thank You Page**
+
+**Thank You Page** <br>
 The page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/thankyou_page.png">
 
@@ -87,6 +89,8 @@ The page was created in mind for thanking the user for submitting the form (book
 
 - Use javascript to perform form validation data on booking/contact form.
 - Competitions/promotions page. 
+- calendar validation to ensure the bar doesn't take too many bookings. 
+- including gluten and allergy menus. 
 
 **Accessibility**
 
@@ -144,7 +148,7 @@ How to Fork
 - Go to the repository for this project, ljsummers/drinks-giggles
 - Click the Fork button in the top right corner.
 
-**How to Clone**
+How to Clone
 
 To clone the drinks-giggles repository:
 
@@ -164,12 +168,13 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 The following issues were raised during my mid project meeting with my mentor:
 
-- unable to link thankyou.html to the css style sheet without JS.
+- unable to link thankyou.html to the booking/contact page without JavaScript.
 - bullet points on the index page looked out of place. 
 - aboutus page needed to have margins added to make readability easier.
+- unable to use favicons to create TikTok links. <br>
 
 
-**Code Validation** 
+## Code Validation
 
 [W3C Validator](https://validator.w3.org/)
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -185,7 +190,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 **Solved Bugs**
 
-- overlapping of footer with bar address on index page on mobile devices
+- overlapping of social media footer with bar address on index page on mobile devices.
 
 ## Acknowledgements
 
