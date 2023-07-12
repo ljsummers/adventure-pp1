@@ -174,7 +174,7 @@ The following issues were raised during my mid project meeting with my mentor:
 
 - unable to link thankyou.html to the booking/contact page without JavaScript.
 - bullet points on the index page looked out of place. 
-- aboutus page needed to have margins added to make readability easier.
+- about us page needed to have margins added to make readability easier.
 - unable to use favicons to create TikTok links. 
 <br>
 
