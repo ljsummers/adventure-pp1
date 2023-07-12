@@ -142,6 +142,10 @@ To clone the drinks-giggles repository:
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
+- The pages were regularly tested in Chrome, Safari, Firefox, iPhone 12, iPhone 14 Pro Max and an iPad Air, both in vertical and horizontal mode.
+- The site is responsive on all screen sizes and no images are pixelated or stretched. No elements overlap.
+- I have tested that every single link on the site work as intended within current scripting limitations. 
+
 The following issues were raised during my mid project meeting with my mentor:
 
 - unable to link thankyou.html to the css style sheet without JS
