@@ -3,6 +3,8 @@
 
 Drinks & Giggles is a new bar launghing in Cork city which is looking to gain a prominent position as the hottest bar to socialise, party and enjoy a hearty meal in. 
 
+<img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/index_page.png" alt="index page for drinks & giggles">
+
 The best way to advertise the business and also inform new customers is to build a website which features:
 
 - when the bar launches in Cork. 
