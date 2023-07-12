@@ -114,6 +114,7 @@ color: #d00707;;
 
 #opening-night h3 {
   color: #d00707 ;
+  margin-bottom: -20px;
 }
 
 #bullet-points {
@@ -127,9 +128,12 @@ color: #d00707;;
 /* footer */
 
 .flex-container-footer {
+  margin-top: 20px;
+  margin-left: 50px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  
 }
 
 .footer-info {
