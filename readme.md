@@ -3,6 +3,8 @@
 
 Drinks & Giggles is a new bar launghing in Cork city which is looking to gain a prominent position as the hottest bar to socialise, party and enjoy a hearty meal in. 
 
+Visit the website [here!](https://ljsummers.github.io/drinks-giggles/)
+
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/index_page.png" alt="index page for drinks & giggles">
 
 The best way to advertise the business and also inform new customers is to build a website which features:
@@ -132,7 +134,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 **Deployment**
 
-Github Pages was used to deploy the live website. The instructions to achieve this are below:
+Github Pages was used to deploy the live website which can be viewed [here](https://ljsummers.github.io/drinks-giggles/). The instructions to achieve this are below:
 
 - Log in (or sign up) to Github.
 - Find the repository for this project, drinks-giggles.
