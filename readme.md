@@ -83,7 +83,7 @@ The contact page provides opening times, the address as well as a general form f
 
 
 **Thank You Page** <br>
-The page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. <br>
+This page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/thankyou_page.png">
 
 
@@ -91,7 +91,7 @@ The page was created in mind for thanking the user for submitting the form (book
 
 - Use javascript to perform form validation data on booking/contact form.
 - Competitions/promotions page. 
-- calendar validation to ensure the bar doesn't take too many bookings. 
+- calendar validation to ensure the bar doesn't take too many bookings for the same day/time. 
 - including gluten and allergy menus. 
 
 **Accessibility**
@@ -109,7 +109,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ## Technologies Used
 
-Languages Used: HTML and CSS were used to create this website.
+**Languages Used**: HTML and CSS were used to create this website.
 
 **Libraries & Programs Used**
 
@@ -143,14 +143,14 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 **Local Development**
 
-How to Fork
+*How to Fork*
 
 - To fork the drinks-giggles repository:
 - Log in (or sign up) to Github.
 - Go to the repository for this project, ljsummers/drinks-giggles
 - Click the Fork button in the top right corner.
 
-How to Clone
+*How to Clone*
 
 To clone the drinks-giggles repository:
 
@@ -173,7 +173,8 @@ The following issues were raised during my mid project meeting with my mentor:
 - unable to link thankyou.html to the booking/contact page without JavaScript.
 - bullet points on the index page looked out of place. 
 - aboutus page needed to have margins added to make readability easier.
-- unable to use favicons to create TikTok links. <br>
+- unable to use favicons to create TikTok links. 
+<br>
 
 
 ## Code Validation
