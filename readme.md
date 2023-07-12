@@ -1,7 +1,7 @@
 
 # Drinks & Giggles
 
-Drinks & Giggles is a new bar launghing in Cork city which is looking to gain a prominent position as the hottest bar to socialise, party and enjoy a hearty meal in. 
+Drinks & Giggles is a new bar launching in Cork city which is looking to gain a prominent position as the hottest bar to socialise, party and enjoy a hearty meal in. 
 
 Visit the website [here!](https://ljsummers.github.io/drinks-giggles/)
 
@@ -36,7 +36,7 @@ The best way to advertise the business and also inform new customers is to build
 
 **Color Scheme** 
 
-The website uses a palette of [summery/bright/fun colours](https://coolors.co/068d9d-fc7753-f6f7f8-dea54b) that can be linked to cocktails. The colour palette was created using the [Coolors](https://coolors.co/) website and was made with hero image in mind. 
+The website uses a palette of [summery/bright/fun colors](https://coolors.co/068d9d-fc7753-f6f7f8-dea54b) that can be linked to cocktails. The color palette was created using the [Coolors](https://coolors.co/) website and was made with hero image in mind. 
 
 **Typography** 
 
@@ -59,7 +59,7 @@ To ensure consistency and a user friendly system:
 
 - All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/menu_bar.png" alt="menu bar"> <br>
-- A footerwhich contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable. <br>
+- A footer which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/1969c1cdd798530b70631d892c47afa5ba8451a7/assets/images/readme/footer.png"> <br>
 - The same color scheme is applied throughout the website to keep it on brand. 
 
@@ -68,7 +68,7 @@ A quick description as to what the website is about with a hero image to instant
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_index_page.png" alt="am i responsive index">
 
 **About Page** <br>
-A more comphregensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy.  <br>
+A more comprehensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy.  <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_about_page.png" alt="am i responsive about">
 
 **Menu Page** <br>
@@ -102,7 +102,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 - Using semantic HTML.
 - Using descriptive alt attributes on images on the site.
-- Ensuring that there is a sufficient colour contrast throughout the site.
+- Ensuring that there is a sufficient color contrast throughout the site.
 - Ensuring menus are accessible by marking the current page as current for screen readers.
 - Checking the accessibility score on Lighthouse ([mobile](https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/readme/lightspeed_mobile.png) and [desktop](https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/readme/lightspeed_desktop.png)) and Wave. 
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/wave_test.png" alt="score from WAVE">
