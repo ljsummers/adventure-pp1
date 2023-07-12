@@ -53,32 +53,33 @@ The website is comprised of six pages, five of which are accessible from the nav
 
 To ensure consistency and a user friendly system: 
 
-- All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/menu_bar.png" alt="menu bar"> 
+- All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. <br>
+<img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/menu_bar.png" alt="menu bar"> <br>
 - A [footer](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/footer.png) which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable.
 - The same color scheme is applied throughout the website to keep it on brand. 
 
 **Home Page**
-A quick description as to what the website is about with a hero image to instantly identify as to Drinks & Giggles is about. It also advertises the opening night event. 
+A quick description as to what the website is about with a hero image to instantly identify as to Drinks & Giggles is about. It also advertises the opening night event. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_index_page.png" alt="am i responsive index">
 
 **About Page**
-A more comphregensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy. 
+A more comphregensive description as to the bar is, what it aims to bring to the public, sells the UPI about community and an experience to enjoy.  <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_about_page.png" alt="am i responsive about">
 
 **Menu Page**
-Carrying on the theme of vibrant colors, the menu offers what cocktails are available as well as brunch/dinner options so the public can peruse in advance of visiting the bar. 
+Carrying on the theme of vibrant colors, the menu offers what cocktails are available as well as brunch/dinner options so the public can peruse in advance of visiting the bar. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_menu_page.png" alt="am i responsive menu">
 
 **Booking Page**
-Users can book a reservation for up to 8 people using the booking page. Without using Javascript, the form leads to an error page upon clicking 'book now'. 
+Users can book a reservation for up to 8 people using the booking page. Without using Javascript, the form leads to an error page upon clicking 'book now'. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_booking_page.png" alt="am i responsive booking">
 
 **Contact Page**
-The contact page provides opening times, the address as well as a general form for users to submit if they have any questions about the bar. There is also a map which gives a general direction to the bar's location. 
+The contact page provides opening times, the address as well as a general form for users to submit if they have any questions about the bar. There is also a map which gives a general direction to the bar's location. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/35640d4d95b116e0c25b0f3a72851a0d47b1fb4c/assets/images/air/air_contact_page.png" alt="am i responsive contact>
 
 **Thank You Page**
-The page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. 
+The page was created in mind for thanking the user for submitting the form (booking or contact) and lets them know someone will be in touch soon. <br>
 <img src="https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/thankyou_page.png">
 
 
