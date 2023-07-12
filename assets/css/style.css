@@ -91,7 +91,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: #068D9D;
+  color: #066d69;
   text-decoration: underline;
   margin-bottom: -10px;
 }
@@ -159,13 +159,13 @@ color: #d00707;;
 }
 
 .social a:hover {
-  color: #068D9D;
+  color: #066d69;
 }
 
 /* CSS rules for elements on the about.html page */
 
 #about-page h1 {
-  color: #178582;
+  color: #066d69;
 }
 
 .about-section h2 {
@@ -174,7 +174,7 @@ color: #d00707;;
 }
 
 .flex-container-about {
-  color: #068D9D;
+  color: #066d69;
   text-align: center;
   font-size: 20px;
   max-width: max-content;
@@ -223,7 +223,7 @@ margin: 30px;
   margin-bottom: 20px;
   padding-right: 40px;
   text-align: right;
-  color: #068d9d;
+  color: #066d69;
 }
 
 .opening-hours p {
@@ -237,7 +237,7 @@ margin: 30px;
   text-align: left;
   padding-left: 40px;
   margin-bottom: 20px;
-  color: #068d9d;
+  color: #066d69;
 }
 
 .address p {
@@ -262,7 +262,7 @@ body h3 {
 .contact-form label {
   margin-bottom: 10px;
   font-weight: bold;
-  color: #068d9d;
+  color: #066d69;
 }
 
 .contact-form input,
@@ -284,7 +284,7 @@ body h3 {
 }
 
 input[type="submit"]:hover {
-  background-color: #068d9d;
+  background-color: #066d69;
 }
 
 .map-container {
@@ -306,7 +306,7 @@ img {
 #booking-form body {
   margin: 0;
   padding: 0;
-  color: #068D9D;
+  color: #066d69;
 }
 
 .container {
@@ -316,7 +316,7 @@ img {
 
 h1 {
   text-align: center;
-  color: #068d9d;
+  color: #066d69;
 }
 
 .booking-form {
@@ -325,7 +325,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #068D9D;
+  color: #066d69;
 }
 
 .form-field {
@@ -355,7 +355,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #069fb0;
+  background-color: #066d69;
 }
 
 #burger-image {

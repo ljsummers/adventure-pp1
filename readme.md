@@ -5,16 +5,16 @@ Drinks & Giggles is a new bar launghing in Cork city which is looking to gain a 
 
 The best way to advertise the business and also inform new customers is to build a website which features:
 
-- when the bar launches in Cork 
-- what the UPI (unique selling point) of the bar is 
-- what drinks and meals they offer
-- where they are located 
-- ways to connect with the bar via social media 
+- when the bar launches in Cork. 
+- what the UPI (unique selling point) of the bar is. 
+- what drinks and meals they offer.
+- where they are located. 
+- ways to connect with the bar via social media. 
 
 
-## Goals
+## User Experience
 
-**Client Goals**
+**User Stories**
 
 - To be able to view the site on a range of device sizes.
 - To make it easy for customers to find out about the bar/launch. 
@@ -42,6 +42,7 @@ Ysabeau SC is used for body on the site. It is a Garamond font.
 
 Dancing Script is used for the title/header text on the site. It is a cursive font.
 
+
 **Imagery**
 
 All imagery was used from [Pexels](https://www.pexels.com/search/drinks/). I have credited these in the credits section.
@@ -53,11 +54,8 @@ The website is comprised of six pages, five of which are accessible from the nav
 To ensure consistency and a user friendly system: 
 
 - All Pages on the website have a responsive navigation bar at the top which allows the user to navigate through the site. 
-- A footer which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable.
-
-
-
-
+- A [footer](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/readme/footer.png) which contains social media icon links to Facebook, Instagram and Twitter. Icons were used to keep the footer clean and because they are universally recognisable.
+- The same color scheme is applied throughout the website to keep it on brand. 
 
 **Home Page**
 
@@ -149,26 +147,25 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 The following issues were raised during my mid project meeting with my mentor:
 
 - unable to link thankyou.html to the css style sheet without JS
-- bullet points on the home page looked out of place
+- bullet points on the index page looked out of place 
 - aboutus page needed to have margins added 
 
 
 [W3C Validator](https://validator.w3.org/)
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-*need screenshots of the pages below thru ^* 
-
-- 
-- About Page HTML
-- Contact Us Page HTML
-- Booking Page HTML 
-- Thank You Page HTML
-- style.css CSS
-
+- [About Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_about_page.png)
+- [Booking Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_booking_page.png) 
+- [Contact Us Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_contact_page.png)
+- [Index Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_index_page.png)
+- [Menu Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_menu_page.png)
+- [Thank You Page](https://github.com/ljsummers/drinks-giggles/blob/main/assets/images/validator/w3_thankyou_page.png)
+- [Style.css](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fljsummers.github.io%2Fdrinks-giggles%2Findex.html&usermedium=all&vextwarning=&warning=2))
 
 
 Solved Bugs
 
+- overlapping of footer with bar address on index page on mobile devices
 
 ## Acknowledgements
 
