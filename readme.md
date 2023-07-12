@@ -163,7 +163,6 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 - Contact Us Page HTML
 - Booking Page HTML 
 - Thank You Page HTML
-- 404 Page HTML
 - style.css CSS
 
 
